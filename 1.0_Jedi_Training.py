@@ -34,7 +34,7 @@ tina = turtle.Turtle()
 screen = turtle.Screen()
 screen.bgcolor("black")
 
-tina.speed(15)
+tina.speed(13)
 
 tina.color('#cecee2')
 tina.begin_fill()
