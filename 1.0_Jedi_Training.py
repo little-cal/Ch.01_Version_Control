@@ -7,15 +7,16 @@ Creating a copy of a repo to your own remote repo
 2. Define Cloning (1pt): 
 'downloading' the remote repo onto your local device
 3. Define Branching (1pt):
-making a copy of code you are working that you can test away from the main file
+making a copy of code you are working that you can test away from the master branch
 4. Define Committing (1pt): 
 creating a hard save of your code that you can revert to in the future
 5. Define Merging (1pt): 
-Overwriting your main file with the code written in your test branches
+Overwriting your master branch with the code written in your test branches
 6. Define Pushing (1pt):
 Uploading your updated local repo to the remote repo
 7. Define Pull Request (1pt):
-A pull request asks the owner of the organization to review your code and potentially merge it back into the upstream remot repo
+A pull request asks the owner of the organization to review your code and potentially merge it back into the upstream
+remote repo
 
 8. TUTORIAL ART (10pts.)
 
@@ -34,7 +35,7 @@ tina = turtle.Turtle()
 screen = turtle.Screen()
 screen.bgcolor("black")
 
-tina.speed(13)
+tina.speed(10)
 
 tina.color('#cecee2')
 tina.begin_fill()
@@ -139,9 +140,12 @@ tina.fd(120)
 tina.lt(90)
 tina.fd(2)
 tina.lt(90)
-tina.fd(120)
+tina.fd(150)
 tina.lt(90)
 tina.fd(2)
+tina.lt(90)
+tina.fd(30)
+tina.rt(90)
 tina.end_fill()
 tina.pu()
 
